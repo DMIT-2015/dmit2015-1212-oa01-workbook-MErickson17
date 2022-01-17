@@ -14,13 +14,18 @@ import java.util.List;
 public class AlbertaCovid19SummaryDataService {
 
     @Getter
-    private List<AlbertaCovid19SummaryData> dataList = new ArrayList<>();
+    private List<AlbertaCovid19SummaryData> dataList;
 
     public AlbertaCovid19SummaryDataService() throws IOException {
+        dataList = loadCsvData();
+    }
+
+    private List<AlbertaCovid19SummaryData> loadCsvData() throws IOException {
+        List<AlbertaCovid19SummaryData> dataList = new ArrayList<>();
+
         try (var reader = new BufferedReader(new InputStreamReader(
                 getClass().getResourceAsStream("/data/covid-19-alberta-statistics-summary-data.csv")))) {
-            //final var delimiter = ",";
-            final var delimiter = ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"; //this is more common use and addresses if there is commas within quotation marks
+            final var delimiter = ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)";
             String line;
             // Skip the first line as it contains column headings
             reader.readLine();
@@ -61,6 +66,8 @@ public class AlbertaCovid19SummaryDataService {
                 // Add lineData to dataList
                 dataList.add(lineData);
             }
+
         }
+        return dataList;
     }
 }
