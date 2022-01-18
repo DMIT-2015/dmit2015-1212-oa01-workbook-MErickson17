@@ -9,6 +9,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class AlbertaCovid19CaseManager {
 
@@ -76,5 +77,33 @@ public class AlbertaCovid19CaseManager {
             }
         }
         return dataList;
+    }
+
+    public long countTotalActiveCases() {
+        return albertaCovid19CaseList
+                .stream()
+                .filter(item -> item.getCaseStatus().equalsIgnoreCase("Active")) //only want active cases
+                .count(); // now that we filtered the stream, we count.
+    }
+
+    public long countActiveCasesByAhsZone(String ahsZone){
+        return  albertaCovid19CaseList
+                .stream()
+                //.filter(item -> item.getCaseStatus().equalsIgnoreCase("Active")
+                //   && item.getAhsZone().equalsIgnoreCase(ahsZone))
+                .filter(item -> item.getCaseStatus().equalsIgnoreCase("Active")) //better to chain filters
+                .filter((item -> item.getAhsZone().equalsIgnoreCase(ahsZone)))
+                .count();
+    }
+
+    public List<String> distinctAhsZone() {
+        return albertaCovid19CaseList
+                .stream()
+                .map(item -> item.getAhsZone())
+                .distinct()
+                .filter(item -> item.isEmpty() == false)
+                .sorted()
+                //.skip(1) //could also do this for skipping the blank item because once sorted, we know it is going to have the empty zone first
+                .collect(Collectors.toList());
     }
 }
