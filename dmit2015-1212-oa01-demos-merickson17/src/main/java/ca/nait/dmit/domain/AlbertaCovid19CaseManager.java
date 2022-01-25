@@ -9,8 +9,15 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * This class manages AlbertaCovid19Case data
+ *
+ * @Author Mackenzie Erickson
+ * @version 2022.01.19
+ */
 public class AlbertaCovid19CaseManager {
 
     private static AlbertaCovid19CaseManager instance;
@@ -77,6 +84,14 @@ public class AlbertaCovid19CaseManager {
             }
         }
         return dataList;
+    }
+
+    public Optional<AlbertaCovid19Case> findById(int id)
+    {
+        return albertaCovid19CaseList
+                .stream()
+                .filter(item -> item.getId() == id)
+                .findFirst();
     }
 
     public long countTotalActiveCases() {
