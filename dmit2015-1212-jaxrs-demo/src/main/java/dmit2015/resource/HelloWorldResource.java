@@ -15,6 +15,10 @@ import java.io.InputStream;
  *  curl -k -i -X GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/helloworld -H 'Accept: text/plain'
  *  curl -k -i -X GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/helloworld -H 'Accept: text/html'
  *  curl -k -i -X GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/helloworld -H 'Accept: application/json'
+ *
+ *  curl -k -i -X GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/helloworld/image --output hello.png
+ *  Above: -H (header) path is not needed because there is only one method under that path;
+ *  the output just lets us download it; don't need to do this to test.
  */
 @RequestScoped // this resource is created for one request; object is disposed after the response reaches the client
 @Path("/helloworld") // to access methods in here, need to provide a path of helloworld
@@ -39,13 +43,18 @@ public class HelloWorldResource {
     }
     @Path("/image")
     @GET
-    @Produces("text/image")
+    @Produces("image/png")
     public Response helloImage(@Context HttpServletRequest request) {
 //        InputStream is = getClass().getResourceAsStream("/images/hello_world.png");
-        File imageFile = new File("src/main/resources/META-INF/images/hello_world.png");
+//        return Response
+//                .ok(is)
+//                .header("Content-Disposition","attachment; filename=hello_world.png")
+//                .build();
+
+        File imageFile = new File("/home/user2015/Pictures/world.png");
         return Response
                 .ok(imageFile)
-                .header("Content-Disposition","attachment; filename=hello_world.png")
+                .header("Content-Disposition","attachment; filename=world.png")
                 .build();
     }
 }
