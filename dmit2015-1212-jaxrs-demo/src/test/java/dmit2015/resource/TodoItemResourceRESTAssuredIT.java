@@ -131,7 +131,7 @@ class TodoItemResourceRestAssuredIT {
     @Test
     void shouldDelete() {
         given()
-//                .contentType(ContentType.JSON)
+                .contentType(ContentType.JSON)
                 .when()
                 .delete(testDataResourceLocation)
                 .then()

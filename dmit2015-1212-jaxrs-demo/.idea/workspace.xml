@@ -10,48 +10,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_yasson_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceArquillianRestAssuredIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_zerodep_3_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_json_bind_jakarta_json_bind_api_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_json_bind_jakarta_json_bind_api_2_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_json_jakarta_json_api_1_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_json_jakarta_json_api_2_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_jws_jakarta_jws_api_2_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_soap_jakarta_xml_soap_api_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_ws_jakarta_xml_ws_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxrs_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_client_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_extension_providers_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_security_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bitbucket_b_c_jose4j_0_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_yasson_1_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_json_module_1_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_json_module_2_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_rmi_jboss_rmi_api_1_0_spec_1_0_6_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_microshed_microshed_testing_core_0_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_microshed_microshed_testing_testcontainers_0_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_microshed_microshed_testing_wildfly_0_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rnorth_duct_tape_duct_tape_1_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rnorth_visible_assertions_visible_assertions_2_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_junit_jupiter_1_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_15_2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieHttpRequest.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoItemDtoHttpRequest.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/jpa/AbstractJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/validator/BeanValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/dto/MovieDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/dto/TodoItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/mapper/MovieMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/mapper/TodoItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/repository/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/MovieDtoResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/MovieResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemDtoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dmit2015_1212_jaxrs_demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dmit2015_1212_jaxrs_demo_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoItemHttpRequest.http" beforeDir="false" afterPath="$PROJECT_DIR$/TodoItemHttpRequest.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dmit2015-1212-jaxrs-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmit2015-1212-jaxrs-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/entity/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/entity/TodoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/repository/TodoItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/repository/TodoItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/sql/import-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/import-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/repository/TodoItemRepositoryIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/repository/TodoItemRepositoryIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceArquillianRestAssuredIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceArquillianRestAssuredIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceRESTAssuredIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceRESTAssuredIT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +48,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTTP Request" />
         <option value="JUnit5 Test Class" />
+        <option value="DMIT2015 JPA Abstract Repository" />
+        <option value="DMIT2015 BeanValidator" />
+        <option value="DMIT2015 JAX-RS Resource" />
+        <option value="Class" />
+        <option value="DMIT2015 JAX-RS DTO Mapper" />
+        <option value="DMIT2015 JAX-RS DTO Resource" />
+        <option value="DMIT2015 JPA Entity Repository" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -81,7 +75,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -103,7 +97,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dmit2015-1212-oa01-assignment03-MErickson17/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -122,15 +116,32 @@
       <recent name="dmit2015.resource" />
       <recent name="dmit2015.repository" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dmit2015.entity" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TodoItemResourceArquillianRestAssuredIT">
-    <configuration name="TodoItemHttpRequest | Delete an TodoItem with an id of 5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="6" requestIdentifier="Delete an TodoItem with an id of 5" runType="Run single request">
+  <component name="RunManager" selected="JBoss/WildFly Server.JBoss/WildFly 26.0.0.Final">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoItemHttpRequest | Delete an TodoItem with an id of 4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="6" requestIdentifier="Delete an TodoItem with an id of 4" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="TodoItemHttpRequest | Get a single TodoItem with an id of 5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="4" requestIdentifier="Get a single TodoItem with an id of 5" runType="Run single request">
+    <configuration name="TodoItemHttpRequest | Get a single TodoItem with an id of 4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="4" requestIdentifier="Get a single TodoItem with an id of 4" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="TodoItemHttpRequest | Get all TodoItems" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" requestIdentifier="Get all TodoItems" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoItemHttpRequest | POST a new TodoItem" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="3" requestIdentifier="POST a new TodoItem" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="TodoItemHttpRequest | Update TodoItem with an id of 5 and change name and complete properties." type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="5" requestIdentifier="Update TodoItem with an id of 5 and change name and complete properties." runType="Run single request">
@@ -207,36 +218,21 @@
         </option>
       </method>
     </configuration>
-    <configuration name="TodoItemResourceArquillianRestAssuredIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dmit2015-1212-jaxrs-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dmit2015.resource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dmit2015.resource" />
-      <option name="MAIN_CLASS_NAME" value="dmit2015.resource.TodoItemResourceArquillianRestAssuredIT" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="HTTP Request.TodoItemHttpRequest | Get a single TodoItem with an id of 5" />
-      <item itemvalue="HTTP Request.TodoItemHttpRequest | Update TodoItem with an id of 5 and change name and complete properties." />
-      <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 5" />
-      <item itemvalue="HTTP Request.TodoItemHttpRequest | Get all TodoItems" />
       <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.0.0.Final" />
-      <item itemvalue="JUnit.TodoItemResourceArquillianRestAssuredIT" />
+      <item itemvalue="HTTP Request.TodoItemHttpRequest | POST a new TodoItem" />
+      <item itemvalue="HTTP Request.TodoItemHttpRequest | Get a single TodoItem with an id of 4" />
+      <item itemvalue="HTTP Request.TodoItemHttpRequest | Update TodoItem with an id of 5 and change name and complete properties." />
+      <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 4" />
+      <item itemvalue="HTTP Request.TodoItemHttpRequest | Get all TodoItems" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TodoItemResourceArquillianRestAssuredIT" />
         <item itemvalue="HTTP Request.TodoItemHttpRequest | Get all TodoItems" />
-        <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 5" />
+        <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 4" />
+        <item itemvalue="HTTP Request.TodoItemHttpRequest | Get a single TodoItem with an id of 4" />
         <item itemvalue="HTTP Request.TodoItemHttpRequest | Update TodoItem with an id of 5 and change name and complete properties." />
-        <item itemvalue="HTTP Request.TodoItemHttpRequest | Get a single TodoItem with an id of 5" />
+        <item itemvalue="HTTP Request.TodoItemHttpRequest | POST a new TodoItem" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +249,19 @@
       <workItem from="1643744059884" duration="47000" />
       <workItem from="1643820275501" duration="7896000" />
       <workItem from="1644253399305" duration="6930000" />
+      <workItem from="1644261466537" duration="187000" />
+      <workItem from="1644332482746" duration="1383000" />
+      <workItem from="1644333912070" duration="5070000" />
+      <workItem from="1644354958756" duration="1481000" />
+      <workItem from="1644359725656" duration="4675000" />
+      <workItem from="1644364940098" duration="132000" />
+      <workItem from="1644372848216" duration="76000" />
+      <workItem from="1644373037676" duration="470000" />
+      <workItem from="1644373554597" duration="25000" />
+      <workItem from="1644373619000" duration="10000" />
+      <workItem from="1644377256290" duration="49000" />
+      <workItem from="1644377658654" duration="5158000" />
+      <workItem from="1644422175844" duration="5170000" />
     </task>
     <task id="LOCAL-00001" summary="Class Feb 1/2022">
       <created>1643734545743</created>
@@ -275,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643827891375</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Class Feb 7/2022">
+      <created>1644261639180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644261639180</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +301,18 @@
     <MESSAGE value="Class Feb 1/2022" />
     <MESSAGE value="Class Feb 1/2022 - file fix" />
     <MESSAGE value="Class Feb 2/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Feb 2/2022" />
+    <MESSAGE value="Class Feb 7/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Feb 7/2022" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemDtoResource.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

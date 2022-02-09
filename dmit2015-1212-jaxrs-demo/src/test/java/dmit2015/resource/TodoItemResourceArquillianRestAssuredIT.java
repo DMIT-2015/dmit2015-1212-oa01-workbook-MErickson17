@@ -1,10 +1,6 @@
-
-
 package dmit2015.resource;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import dmit2015.config.ApplicationConfig;
 import dmit2015.config.JAXRSConfiguration;
 import dmit2015.entity.TodoItem;
@@ -47,15 +43,23 @@ import static org.junit.jupiter.api.Assertions.*;
 @ExtendWith(ArquillianExtension.class)                  // Run with JUnit 5 instead of JUnit 4
 public class TodoItemResourceArquillianRestAssuredIT {
 
+    static String mavenArtifactIdId;
+    static String resourceUrl;
+    static final String todoItemResourcePath = "webapi/TodoItems";
+
     @Deployment
     public static WebArchive createDeployment() throws IOException, XmlPullParserException {
         PomEquippedResolveStage pomFile = Maven.resolver().loadPomFromFile("pom.xml");
         MavenXpp3Reader reader = new MavenXpp3Reader();
         Model model = reader.read(new FileReader("pom.xml"));
+        mavenArtifactIdId = model.getArtifactId();
+        resourceUrl = String.format("http://localhost:8080/%s/%s", mavenArtifactIdId, todoItemResourcePath);
         final String archiveName = model.getArtifactId() + ".war";
         return ShrinkWrap.create(WebArchive.class,archiveName)
 //                .addAsLibraries(pomFile.resolve("com.h2database:h2:2.1.210").withTransitivity().asFile())
                 .addAsLibraries(pomFile.resolve("org.hsqldb:hsqldb:2.6.1").withTransitivity().asFile())
+                .addAsLibraries(pomFile.resolve("com.microsoft.sqlserver:mssql-jdbc:10.2.0.jre17").withTransitivity().asFile())
+                .addAsLibraries(pomFile.resolve("com.oracle.database.jdbc:ojdbc11:21.5.0.0").withTransitivity().asFile())
                 .addClasses(ApplicationConfig.class, JAXRSConfiguration.class)
                 .addClasses(TodoItem.class, TodoItemRepository.class, TodoItemResource.class)
 //                .addPackage("dmit2015.config")
@@ -72,7 +76,7 @@ public class TodoItemResourceArquillianRestAssuredIT {
     @RunAsClient
     public void checkSiteIsUp() {
         given().when().get("https://www.nait.ca/").then().statusCode(200);
-//        given().when().get("http://localhost:8080/dmit2015-1212-jaxrs-demo/h2-console").then().statusCode(200);
+        given().when().get(resourceUrl).then().statusCode(200);
     }
 
     String testDataResourceLocation;
@@ -82,10 +86,10 @@ public class TodoItemResourceArquillianRestAssuredIT {
     @RunAsClient
     void shouldListAll() throws JsonProcessingException {
         Response response = given()
-        		.urlEncodingEnabled(false)
+                .urlEncodingEnabled(false)
                 .accept(ContentType.JSON)
                 .when()
-                .get("/dmit2015-1212-jaxrs-demo/webapi/TodoItems")
+                .get(resourceUrl)
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
@@ -122,7 +126,7 @@ public class TodoItemResourceArquillianRestAssuredIT {
                 .contentType(ContentType.JSON)
                 .body(jsonBody)
                 .when()
-                .post("/dmit2015-1212-jaxrs-demo/webapi/TodoItems")
+                .post(resourceUrl)
                 .then()
                 .statusCode(201)
                 .extract()
@@ -175,7 +179,6 @@ public class TodoItemResourceArquillianRestAssuredIT {
         existingTodoItem.setName("Updated Name");
         existingTodoItem.setComplete(true);
 
-//        String jsonRequestBody = mapper.writeValueAsString(existingTodoItem);
         String jsonRequestBody = jsonb.toJson(existingTodoItem);
         given()
                 .contentType(ContentType.JSON)
@@ -199,4 +202,3 @@ public class TodoItemResourceArquillianRestAssuredIT {
     }
 
 }
-
