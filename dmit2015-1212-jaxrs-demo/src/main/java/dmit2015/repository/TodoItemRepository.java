@@ -16,15 +16,15 @@ public class TodoItemRepository extends AbstractJpaRepository<TodoItem, Long> {
         super(TodoItem.class);
     }
 
-    public void update(TodoItem updatedTodoItem) {
-        Optional<TodoItem> optionalTodoItem = findOptional(updatedTodoItem.getId());
-        if (optionalTodoItem.isPresent()) {
-            TodoItem existingTodoItem = optionalTodoItem.get(); // make a copy of the todo item
-            existingTodoItem.setName(updatedTodoItem.getName());
-            existingTodoItem.setComplete(updatedTodoItem.isComplete());
-            // next call the update method in our super class
-            super.update(existingTodoItem); //when an update request is sent in, make sure it is an item in our system and copy over the values we are allowed to change
-        }
-    }
+//    public void update(TodoItem updatedTodoItem) {
+//        Optional<TodoItem> optionalTodoItem = findOptional(updatedTodoItem.getId());
+//        if (optionalTodoItem.isPresent()) {
+//            TodoItem existingTodoItem = optionalTodoItem.get(); // make a copy of the todo item
+//            existingTodoItem.setName(updatedTodoItem.getName());
+//            existingTodoItem.setComplete(updatedTodoItem.isComplete());
+//            // next call the update method in our super class
+//            super.update(existingTodoItem); //when an update request is sent in, make sure it is an item in our system and copy over the values we are allowed to change
+//        }
+//    }
 }
 

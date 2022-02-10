@@ -1,9 +1,11 @@
 package dmit2015.resource;
 
+import common.validator.BeanValidator;
 import dmit2015.entity.TodoItem;
 import dmit2015.repository.TodoItemRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
+import jakarta.persistence.OptimisticLockException;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Context;
@@ -57,9 +59,17 @@ public class TodoItemResource {
     private TodoItemRepository todoItemRepository;
 
     @POST   // POST: /webapi/TodoItems
-    public Response postTodoItem(@Valid TodoItem newTodoItem) {
+    public Response postTodoItem(TodoItem newTodoItem) {
         if (newTodoItem == null) {
             throw new BadRequestException();
+        }
+
+        String errorMessage = BeanValidator.validateBean(TodoItem.class, newTodoItem); // validate all constraints in teh object
+        if (errorMessage != null) {
+            return Response // returns a JSON object with a message of what properties are failing
+                    .status(Response.Status.BAD_REQUEST)
+                    .entity(errorMessage)
+                    .build();
         }
 
         try {
@@ -104,25 +114,47 @@ public class TodoItemResource {
 
     @PUT    // PUT: /webapi/TodoItems/5
     @Path("{id}")
-    public Response updateTodoItem(@PathParam("id") Long id, @Valid TodoItem updatedTodoItem) {
+    public Response updateTodoItem(@PathParam("id") Long id, TodoItem updatedTodoItem) {
         if (!id.equals(updatedTodoItem.getId())) {
             throw new BadRequestException();
         }
 
-        Optional<TodoItem> optionalTodoItem = todoItemRepository.findOptional(id);
-
-        if (optionalTodoItem.isEmpty()) {
-            throw new NotFoundException();
+        String errorMessage = BeanValidator.validateBean(TodoItem.class, updatedTodoItem);
+        if (errorMessage != null) {
+            return Response
+                    .status(Response.Status.BAD_REQUEST)
+                    .entity(errorMessage)
+                    .build();
         }
+
+//        Optional<TodoItem> optionalTodoItem = todoItemRepository.findOptional(id);
+//        if (optionalTodoItem.isEmpty()) {
+//            throw new NotFoundException();
+//        }
+
+        TodoItem existingTodoItem = todoItemRepository
+                .findOptional(id)
+                .orElseThrow(NotFoundException::new);
+
+        // copy data from the updated entity to the existing entity
+        existingTodoItem.setVersion(updatedTodoItem.getVersion());
+        existingTodoItem.setName(updatedTodoItem.getName());
+        existingTodoItem.setComplete((updatedTodoItem.isComplete()));
         try {
-            todoItemRepository.update(updatedTodoItem); // should ideally have try-catch around all of these
+
+            todoItemRepository.update(existingTodoItem); // should ideally have try-catch around all of these
+        } catch (OptimisticLockException ex) {
+            return Response
+                    .status(Response.Status.BAD_REQUEST)
+                    .entity("You are updating an old version of the data. Please fetch new version.")
+                    .build();
         } catch (Exception e){
             e.printStackTrace();
             return Response.serverError()
                     .entity(e.getMessage())
                     .build();
         }
-        return Response.ok(updatedTodoItem).build();
+        return Response.ok(updatedTodoItem).build(); // return a 200 and include the object that has been updated
     }
 
     @DELETE // DELETE: /webapi/TodoItems/5
@@ -132,7 +164,7 @@ public class TodoItemResource {
 
         if (optionalTodoItem.isEmpty()) {
             throw new NotFoundException();
-        }
+        } // TODO: Video at 52mins
 
         todoItemRepository.remove(id);
 

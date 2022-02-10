@@ -10,35 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieHttpRequest.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoItemDtoHttpRequest.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/jpa/AbstractJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/validator/BeanValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/dto/MovieDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/dto/TodoItemDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/mapper/MovieMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/mapper/TodoItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/repository/MovieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/MovieDtoResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/MovieResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemDtoResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/dmit2015_1212_jaxrs_demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dmit2015_1212_jaxrs_demo_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_2_1_210.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoItemHttpRequest.http" beforeDir="false" afterPath="$PROJECT_DIR$/TodoItemHttpRequest.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dmit2015-1212-jaxrs-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmit2015-1212-jaxrs-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/validator/BeanValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/validator/BeanValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/config/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/entity/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/entity/TodoItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/repository/TodoItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/repository/TodoItemRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/sql/import-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/import-data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/repository/TodoItemRepositoryIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/repository/TodoItemRepositoryIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceArquillianRestAssuredIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceArquillianRestAssuredIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceRESTAssuredIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceRESTAssuredIT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,31 +105,11 @@
       <recent name="dmit2015.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JBoss/WildFly Server.JBoss/WildFly 26.0.0.Final">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TodoItemResourceArquillianRestAssuredIT">
     <configuration name="TodoItemHttpRequest | Delete an TodoItem with an id of 4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="6" requestIdentifier="Delete an TodoItem with an id of 4" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="TodoItemHttpRequest | Get a single TodoItem with an id of 4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="4" requestIdentifier="Get a single TodoItem with an id of 4" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="TodoItemHttpRequest | Get all TodoItems" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" requestIdentifier="Get all TodoItems" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="TodoItemHttpRequest | POST a new TodoItem" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="3" requestIdentifier="POST a new TodoItem" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="TodoItemHttpRequest | Update TodoItem with an id of 5 and change name and complete properties." type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="5" requestIdentifier="Update TodoItem with an id of 5 and change name and complete properties." runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="JBoss/WildFly 26.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 26.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
@@ -218,21 +183,66 @@
         </option>
       </method>
     </configuration>
+    <configuration name="TodoItemRepositoryIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmit2015-1212-jaxrs-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dmit2015.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dmit2015.repository" />
+      <option name="MAIN_CLASS_NAME" value="dmit2015.repository.TodoItemRepositoryIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoItemResourceArquillianRestAssuredIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmit2015-1212-jaxrs-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dmit2015.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dmit2015.resource" />
+      <option name="MAIN_CLASS_NAME" value="dmit2015.resource.TodoItemResourceArquillianRestAssuredIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoItemResourceRestAssuredIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmit2015-1212-jaxrs-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dmit2015.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dmit2015.resource" />
+      <option name="MAIN_CLASS_NAME" value="dmit2015.resource.TodoItemResourceRestAssuredIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.0.0.Final" />
-      <item itemvalue="HTTP Request.TodoItemHttpRequest | POST a new TodoItem" />
-      <item itemvalue="HTTP Request.TodoItemHttpRequest | Get a single TodoItem with an id of 4" />
-      <item itemvalue="HTTP Request.TodoItemHttpRequest | Update TodoItem with an id of 5 and change name and complete properties." />
       <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 4" />
       <item itemvalue="HTTP Request.TodoItemHttpRequest | Get all TodoItems" />
+      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.0.0.Final" />
+      <item itemvalue="JUnit.TodoItemResourceArquillianRestAssuredIT" />
+      <item itemvalue="JUnit.TodoItemResourceRestAssuredIT" />
+      <item itemvalue="JUnit.TodoItemRepositoryIT" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TodoItemResourceArquillianRestAssuredIT" />
+        <item itemvalue="JUnit.TodoItemRepositoryIT" />
+        <item itemvalue="JUnit.TodoItemResourceRestAssuredIT" />
         <item itemvalue="HTTP Request.TodoItemHttpRequest | Get all TodoItems" />
         <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 4" />
-        <item itemvalue="HTTP Request.TodoItemHttpRequest | Get a single TodoItem with an id of 4" />
-        <item itemvalue="HTTP Request.TodoItemHttpRequest | Update TodoItem with an id of 5 and change name and complete properties." />
-        <item itemvalue="HTTP Request.TodoItemHttpRequest | POST a new TodoItem" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +271,12 @@
       <workItem from="1644373619000" duration="10000" />
       <workItem from="1644377256290" duration="49000" />
       <workItem from="1644377658654" duration="5158000" />
-      <workItem from="1644422175844" duration="5170000" />
+      <workItem from="1644422175844" duration="6310000" />
+      <workItem from="1644430311356" duration="1818000" />
+      <workItem from="1644434602595" duration="2059000" />
+      <workItem from="1644443040921" duration="204000" />
+      <workItem from="1644514115706" duration="6665000" />
+      <workItem from="1644528399579" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="Class Feb 1/2022">
       <created>1643734545743</created>
@@ -291,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644261639180</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Class Feb 8 and 9/2022">
+      <created>1644428972137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644428972137</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +324,8 @@
     <MESSAGE value="Class Feb 1/2022 - file fix" />
     <MESSAGE value="Class Feb 2/2022" />
     <MESSAGE value="Class Feb 7/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Feb 7/2022" />
+    <MESSAGE value="Class Feb 8 and 9/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Feb 8 and 9/2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
