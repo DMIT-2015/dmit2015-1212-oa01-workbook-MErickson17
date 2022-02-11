@@ -19,12 +19,11 @@ import static org.junit.jupiter.api.Assertions.*;
  * http://www.mastertheboss.com/jboss-frameworks/resteasy/restassured-tutorial
  * https://github.com/FasterXML/jackson-databind
  */
-
-// This is the same as the TodoItemResourceRESTAssuredJacksonIT
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-class TodoItemResourceRestAssuredIT {
+class TodoItemResourceRESTAssuredJacksonIT {
 
+    String todoResourceUrl = "http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems";
     String testDataResourceLocation;
 
     @Order(1)
@@ -33,7 +32,7 @@ class TodoItemResourceRestAssuredIT {
         Response response = given()
                 .accept(ContentType.JSON)
                 .when()
-                .get("/dmit2015-1212-jaxrs-demo/webapi/TodoItems")
+                .get(todoResourceUrl)
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
@@ -70,7 +69,7 @@ class TodoItemResourceRestAssuredIT {
                 .contentType(ContentType.JSON)
                 .body(jsonBody)
                 .when()
-                .post("/dmit2015-1212-jaxrs-demo/webapi/TodoItems")
+                .post(todoResourceUrl)
                 .then()
                 .statusCode(201)
                 .extract()
@@ -133,7 +132,6 @@ class TodoItemResourceRestAssuredIT {
     @Test
     void shouldDelete() {
         given()
-                .contentType(ContentType.JSON)
                 .when()
                 .delete(testDataResourceLocation)
                 .then()
@@ -141,4 +139,3 @@ class TodoItemResourceRestAssuredIT {
     }
 
 }
-

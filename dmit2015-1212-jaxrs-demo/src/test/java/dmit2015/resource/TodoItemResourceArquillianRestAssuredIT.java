@@ -62,6 +62,8 @@ public class TodoItemResourceArquillianRestAssuredIT {
 //                .addAsLibraries(pomFile.resolve("com.oracle.database.jdbc:ojdbc11:21.5.0.0").withTransitivity().asFile())
                 .addClasses(ApplicationConfig.class, JAXRSConfiguration.class)
                 .addClasses(TodoItem.class, TodoItemRepository.class, TodoItemResource.class)
+                .addPackage("common.jpa")
+                .addPackage("common.validator")
 //                .addPackage("dmit2015.config")
 //                .addPackage("dmit2015.entity")
 //                .addPackage("dmit2015.repository")

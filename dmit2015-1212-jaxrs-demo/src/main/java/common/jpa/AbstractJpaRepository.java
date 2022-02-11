@@ -48,7 +48,7 @@ public abstract class AbstractJpaRepository<E extends Serializable, ID> {
      * The persistence unit that is defined in persistence.xml to use.
      * You can omit the unitName if persistence.xml contains only one persistence unit.
      */
-    @PersistenceContext(unitName = "mssql-jpa-pu")
+    @PersistenceContext//(unitName = "mssql-jpa-pu")
     private EntityManager _entityManager;
 
     /**

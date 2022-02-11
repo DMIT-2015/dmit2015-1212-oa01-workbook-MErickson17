@@ -154,19 +154,24 @@ public class TodoItemResource {
                     .entity(e.getMessage())
                     .build();
         }
-        return Response.ok(updatedTodoItem).build(); // return a 200 and include the object that has been updated
+        return Response.ok(existingTodoItem).build(); // return a 200 and include the object that has been updated
     }
 
     @DELETE // DELETE: /webapi/TodoItems/5
     @Path("{id}")
     public Response deleteTodoItem(@PathParam("id") Long id) {
-        Optional<TodoItem> optionalTodoItem = todoItemRepository.findOptional(id);
+//        Optional<TodoItem> optionalTodoItem = todoItemRepository.findOptional(id);
+//
+//        if (optionalTodoItem.isEmpty()) {
+//            throw new NotFoundException();
+//        }
+//
+//        todoItemRepository.delete(id);
 
-        if (optionalTodoItem.isEmpty()) {
-            throw new NotFoundException();
-        } // TODO: Video at 52mins
-
-        todoItemRepository.remove(id);
+        TodoItem existingTodoItem = todoItemRepository
+                .findOptional(id)
+                .orElseThrow(NotFoundException::new);
+        todoItemRepository.remove(existingTodoItem);
 
         return Response.noContent().build();
     }

@@ -1,6 +1,6 @@
-INSERT INTO TodoItem(name,complete,version) VALUES ('Todo 1',0,0);
-INSERT INTO TodoItem(name,complete,version) VALUES ('Todo 2',0,0);
-INSERT INTO TodoItem(name,complete,version) VALUES ('Todo 3',0,0);
+INSERT INTO TodoItem(name,complete,version) VALUES ('Todo 1',false,0);
+INSERT INTO TodoItem(name,complete,version) VALUES ('Todo 2',false,0);
+INSERT INTO TodoItem(name,complete,version) VALUES ('Todo 3',false,0);
 
 INSERT INTO movies(title,releaseDate,genre,price,rating,createdDateTime,lastModifiedDateTime) VALUES('When Harry Met Sally','1989-2-12','Romantic Comedy',7.99,'G','2021-02-25 08:00:08','2021-02-25 08:15:08');
 INSERT INTO movies(title,releaseDate,genre,price,rating,createdDateTime,lastModifiedDateTime) VALUES('Ghostbusters','1984-3-13','Comedy',8.99,'PG','2021-02-25 08:00:08','2021-02-25 08:15:08');

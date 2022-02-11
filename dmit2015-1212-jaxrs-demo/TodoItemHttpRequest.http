@@ -4,20 +4,40 @@ GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
 ### Get a single TodoItem with an id of 1
 GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/1
 
-### POST a new TodoItem
+### POST a new TodoItem with valid data
 POST http://localhost:8080//dmit2015-1212-jaxrs-demo/webapi/TodoItems
 Content-Type: application/json
 
-{"name":"Finish DMIT2015 Assignment 2", "complete":false}
+{
+  "name":"Start DMIT2015 Assignment 3",
+  "complete":false
+}
+
+### POST a new TodoItem with invalid data
+POST http://localhost:8080//dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{
+  "name":"   ",
+  "complete":false
+}
 
 ### Get a single TodoItem with an id of 4
 GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
 
-### Update TodoItem with an id of 5 and change name and complete properties.
+### Update TodoItem with an id of 4 and change name and complete properties. The first time it should work, the second it should fail
 PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
 Content-Type: application/json
 
-{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
+{
+  "id":4,
+  "name":"Commit DMIT2015 Assignment 3",
+  "complete":true,
+  "version": 0
+}
 
-### Delete an TodoItem with an id of 4
+### Delete an TodoItem with an id of 2 (created with our script file)
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/2
+
+### Delete an TodoItem with an id of 4 (created programatically)
 DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4

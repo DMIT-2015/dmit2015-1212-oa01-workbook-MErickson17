@@ -10,20 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dmit2015_1212_jaxrs_demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dmit2015_1212_jaxrs_demo_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_2_1_210.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceRESTAssuredJacksonIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dmit2015-1212-jaxrs-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmit2015-1212-jaxrs-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/validator/BeanValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/validator/BeanValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/config/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/repository/TodoItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/repository/TodoItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoItemHttpRequest.http" beforeDir="false" afterPath="$PROJECT_DIR$/TodoItemHttpRequest.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/jpa/AbstractJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/jpa/AbstractJpaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/sql/import-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/import-data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/repository/TodoItemRepositoryIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/repository/TodoItemRepositoryIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceArquillianRestAssuredIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceArquillianRestAssuredIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceRESTAssuredIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceRESTAssuredIT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,11 +99,21 @@
       <recent name="dmit2015.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TodoItemResourceArquillianRestAssuredIT">
-    <configuration name="TodoItemHttpRequest | Delete an TodoItem with an id of 4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="6" requestIdentifier="Delete an TodoItem with an id of 4" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.TodoItemResourceRESTAssuredJacksonIT">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="TodoItemHttpRequest | Get all TodoItems" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" requestIdentifier="Get all TodoItems" runType="Run single request">
+    <configuration name="TodoItemHttpRequest | Delete an TodoItem with an id of 2 (created with our script file)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="7" requestIdentifier="Delete an TodoItem with an id of 2 (created with our script file)" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="JBoss/WildFly 26.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 26.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
@@ -213,7 +217,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoItemResourceRestAssuredIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoItemResourceRESTAssuredJacksonIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dmit2015-1212-jaxrs-demo" />
       <extension name="coverage">
         <pattern>
@@ -222,27 +226,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dmit2015.resource" />
-      <option name="MAIN_CLASS_NAME" value="dmit2015.resource.TodoItemResourceRestAssuredIT" />
+      <option name="MAIN_CLASS_NAME" value="dmit2015.resource.TodoItemResourceRESTAssuredJacksonIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoItemResourceRestAssuredUsingJsonbIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dmit2015-1212-jaxrs-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dmit2015.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dmit2015.resource" />
+      <option name="MAIN_CLASS_NAME" value="dmit2015.resource.TodoItemResourceRestAssuredUsingJsonbIT" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 4" />
-      <item itemvalue="HTTP Request.TodoItemHttpRequest | Get all TodoItems" />
       <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.0.0.Final" />
-      <item itemvalue="JUnit.TodoItemResourceArquillianRestAssuredIT" />
-      <item itemvalue="JUnit.TodoItemResourceRestAssuredIT" />
+      <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 2 (created with our script file)" />
       <item itemvalue="JUnit.TodoItemRepositoryIT" />
+      <item itemvalue="JUnit.TodoItemResourceArquillianRestAssuredIT" />
+      <item itemvalue="JUnit.TodoItemResourceRestAssuredUsingJsonbIT" />
+      <item itemvalue="JUnit.TodoItemResourceRESTAssuredJacksonIT" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TodoItemResourceRESTAssuredJacksonIT" />
+        <item itemvalue="JUnit.TodoItemResourceRestAssuredUsingJsonbIT" />
         <item itemvalue="JUnit.TodoItemResourceArquillianRestAssuredIT" />
         <item itemvalue="JUnit.TodoItemRepositoryIT" />
-        <item itemvalue="JUnit.TodoItemResourceRestAssuredIT" />
-        <item itemvalue="HTTP Request.TodoItemHttpRequest | Get all TodoItems" />
-        <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 4" />
+        <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 2 (created with our script file)" />
       </list>
     </recent_temporary>
   </component>
@@ -277,6 +296,8 @@
       <workItem from="1644443040921" duration="204000" />
       <workItem from="1644514115706" duration="6665000" />
       <workItem from="1644528399579" duration="1808000" />
+      <workItem from="1644530684034" duration="106000" />
+      <workItem from="1644551698211" duration="3060000" />
     </task>
     <task id="LOCAL-00001" summary="Class Feb 1/2022">
       <created>1643734545743</created>
@@ -313,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644428972137</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Feb 10/22 - start of reviewing video">
+      <created>1644530735636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644530735636</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +353,8 @@
     <MESSAGE value="Class Feb 2/2022" />
     <MESSAGE value="Class Feb 7/2022" />
     <MESSAGE value="Class Feb 8 and 9/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Feb 8 and 9/2022" />
+    <MESSAGE value="Feb 10/22 - start of reviewing video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 10/22 - start of reviewing video" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
