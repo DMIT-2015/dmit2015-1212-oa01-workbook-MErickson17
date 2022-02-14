@@ -61,6 +61,7 @@
     <!--    </persistence-unit>-->
 
             <persistence-unit name="oracle-jpa-hr-pu" transaction-type="JTA">
+                <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
                 <jta-data-source>java:app/datasources/oracleHrDs</jta-data-source>
                 <class>dmit2015.entity.CountriesEntity</class>
                 <class>dmit2015.entity.DepartmentsEntity</class>
@@ -78,7 +79,6 @@
                     <property name="jakarta.persistence.jdbc.user" value="HR" />
                     <property name="jakarta.persistence.jdbc.password" value="Password2015" />
 
-                    <property name="jakarta.persistence.schema-generation.database.action" value="none"/>
                     <property name="toplink.jdbc.url" value="jdbc:oracle:thin:@//localhost:1521/XEPDB1"/>
                     <property name="toplink.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
                     <property name="hibernate.connection.url" value="jdbc:oracle:thin:@//localhost:1521/XEPDB1"/>

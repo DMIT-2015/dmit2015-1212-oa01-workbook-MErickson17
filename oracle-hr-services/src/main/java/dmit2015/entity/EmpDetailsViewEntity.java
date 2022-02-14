@@ -1,13 +1,11 @@
 package dmit2015.entity;
 
-import jakarta.persistence.Basic;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "EMP_DETAILS_VIEW", schema = "HR", catalog = "")
 public class EmpDetailsViewEntity {
+    @Id
     @Basic
     @Column(name = "EMPLOYEE_ID")
     private Integer employeeId;
