@@ -1,0 +1,362 @@
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/2
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+Content-Type: application/json
+
+{
+  "id":4,
+  "name":"Commit DMIT2015 Assignment 3",
+  "complete":true,
+  "version": 0
+}
+
+<> 2022-02-10T213411.400.json
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+Content-Type: application/json
+
+{
+  "id":4,
+  "name":"Commit DMIT2015 Assignment 3",
+  "complete":true,
+  "version": 0
+}
+
+<> 2022-02-10T213409.200.json
+
+###
+
+POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{
+  "name":"Start DMIT2015 Assignment 3",
+  "complete":false
+}
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+Content-Type: application/json
+
+{
+  "id":4,
+  "name":"Commit DMIT2015 Assignment 3",
+  "complete":true,
+  "version": 0
+}
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+
+<> 2022-02-10T213027.200.json
+
+###
+
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+###
+
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/2
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-10T212935.200.json
+
+###
+
+POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{
+  "name":"   ",
+  "complete":false
+}
+
+<> 2022-02-10T212928.400.json
+
+###
+
+POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{
+  "name":"Start DMIT2015 Assignment 3",
+  "complete":false
+}
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/1
+
+<> 2022-02-10T212904.200.json
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+
+<> 2022-02-10T212901.200.json
+
+###
+
+POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{
+  "name":"Start DMIT2015 Assignment 3",
+  "complete":false
+}
+
+<> 2022-02-10T212443.500.json
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/1
+
+<> 2022-02-10T212432.200.json
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+
+<> 2022-02-10T212429.200.json
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+
+<> 2022-02-10T212221.404.html
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+
+<> 2022-02-09T104713.200.json
+
+###
+
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T104643.500.html
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T104639.200.json
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+Content-Type: application/json
+
+{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
+
+<> 2022-02-09T104636.200.json
+
+###
+
+POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{"name":"Finish DMIT2015 Assignment 2", "complete":false}
+
+###
+
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T104318.500.html
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+Content-Type: application/json
+
+{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
+
+<> 2022-02-09T104315.200.json
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T104313.200.json
+
+###
+
+POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{"name":"Finish DMIT2015 Assignment 2", "complete":false}
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItemDtos/4
+Content-Type: application/json
+
+{"id":2, "name":"Update Todo2", "complete":true}
+
+###
+
+POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{"name":"Finish DMIT2015 Assignment 2", "complete":false}
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+Content-Type: application/json
+
+{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
+
+<> 2022-02-09T103140.200.json
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T103138.200.json
+
+###
+
+POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{"name":"Finish DMIT2015 Assignment 2", "complete":false}
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/1
+
+<> 2022-02-09T103136.200.json
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+Content-Type: application/json
+
+{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
+
+<> 2022-02-09T102914.200.json
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T102611.200.json
+
+###
+
+POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{"name":"Finish DMIT2015 Assignment 2", "complete":false}
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/1
+
+<> 2022-02-09T102606.200.json
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+
+<> 2022-02-09T102601.200.json
+
+###
+
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T102318.500.html
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+
+<> 2022-02-09T102311.200.json
+
+###
+
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T102307.500.html
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+
+<> 2022-02-09T102259.200.json
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+Content-Type: application/json
+
+{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
+
+<> 2022-02-09T102255.200.json
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T102252.200.json
+
+###
+
+POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+Content-Type: application/json
+
+{"name":"Finish DMIT2015 Assignment 2", "complete":false}
+
+###
+
+GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/1
+
+<> 2022-02-09T102248.200.json
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+Content-Type: application/json
+
+{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
+
+###
+
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/5
+
+<> 2022-02-09T090542.500.html
+
+###
+
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T090537.500.html
+
+###
+
+DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+
+<> 2022-02-09T090518.500.html
+
+###
+
+PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+Content-Type: application/json
+
+{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
+
+<> 2022-02-09T090511.200.json
+
+###
+

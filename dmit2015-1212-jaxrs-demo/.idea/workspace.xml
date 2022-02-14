@@ -10,14 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceRESTAssuredJacksonIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoItemHttpRequest.http" beforeDir="false" afterPath="$PROJECT_DIR$/TodoItemHttpRequest.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/jpa/AbstractJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/jpa/AbstractJpaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/sql/import-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/import-data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceArquillianRestAssuredIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceArquillianRestAssuredIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceRESTAssuredIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/resource/TodoItemResourceRESTAssuredIT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,19 +93,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TodoItemResourceRESTAssuredJacksonIT">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TodoItemHttpRequest | Delete an TodoItem with an id of 2 (created with our script file)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/TodoItemHttpRequest.http" index="7" requestIdentifier="Delete an TodoItem with an id of 2 (created with our script file)" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -248,8 +228,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.0.0.Final" />
       <item itemvalue="HTTP Request.TodoItemHttpRequest | Delete an TodoItem with an id of 2 (created with our script file)" />
+      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.0.0.Final" />
       <item itemvalue="JUnit.TodoItemRepositoryIT" />
       <item itemvalue="JUnit.TodoItemResourceArquillianRestAssuredIT" />
       <item itemvalue="JUnit.TodoItemResourceRestAssuredUsingJsonbIT" />
@@ -297,7 +277,8 @@
       <workItem from="1644514115706" duration="6665000" />
       <workItem from="1644528399579" duration="1808000" />
       <workItem from="1644530684034" duration="106000" />
-      <workItem from="1644551698211" duration="3060000" />
+      <workItem from="1644551698211" duration="3371000" />
+      <workItem from="1644600691630" duration="2055000" />
     </task>
     <task id="LOCAL-00001" summary="Class Feb 1/2022">
       <created>1643734545743</created>
@@ -341,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644530735636</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Completed updating code from 09-02-2022">
+      <created>1644555053275</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644555053275</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +342,8 @@
     <MESSAGE value="Class Feb 7/2022" />
     <MESSAGE value="Class Feb 8 and 9/2022" />
     <MESSAGE value="Feb 10/22 - start of reviewing video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 10/22 - start of reviewing video" />
+    <MESSAGE value="Completed updating code from 09-02-2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed updating code from 09-02-2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
