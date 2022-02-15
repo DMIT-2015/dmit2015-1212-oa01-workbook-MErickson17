@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="oracle-hr-services-1.0-SNAPSHOT.war">
+    <root id="archive" name="oracle-hr-services.war">
       <element id="artifact" artifact-name="oracle-hr-services:war exploded" />
     </root>
   </artifact>

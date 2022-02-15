@@ -4,22 +4,22 @@ import jakarta.persistence.*;
 
 import java.math.BigInteger;
 import java.util.Collection;
+import java.util.Objects;
 
 @Entity
-@Table(name = "COUNTRIES", schema = "HR", catalog = "")
+@Table(name = "COUNTRIES", schema = "HR")
 public class CountriesEntity {
-
     @Id
-    @Column(name = "COUNTRY_ID")
+    @Column(name = "COUNTRY_ID", nullable = false, length = 2)
     private String countryId;
     @Basic
-    @Column(name = "COUNTRY_NAME")
+    @Column(name = "COUNTRY_NAME", nullable = true, length = 40)
     private String countryName;
     @Basic
-    @Column(name = "REGION_ID")
+    @Column(name = "REGION_ID", nullable = true, precision = 0)
     private BigInteger regionId;
     @ManyToOne
-    @JoinColumn(name = "REGION_ID", referencedColumnName = "REGION_ID")
+    @JoinColumn(name = "REGION_ID", referencedColumnName = "REGION_ID", insertable = false, updatable = false)
     private RegionsEntity regionsByRegionId;
     @OneToMany(mappedBy = "countriesByCountryId")
     private Collection<LocationsEntity> locationsByCountryId;
@@ -52,22 +52,13 @@ public class CountriesEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         CountriesEntity that = (CountriesEntity) o;
-
-        if (countryId != null ? !countryId.equals(that.countryId) : that.countryId != null) return false;
-        if (countryName != null ? !countryName.equals(that.countryName) : that.countryName != null) return false;
-        if (regionId != null ? !regionId.equals(that.regionId) : that.regionId != null) return false;
-
-        return true;
+        return Objects.equals(countryId, that.countryId) && Objects.equals(countryName, that.countryName) && Objects.equals(regionId, that.regionId);
     }
 
     @Override
     public int hashCode() {
-        int result = countryId != null ? countryId.hashCode() : 0;
-        result = 31 * result + (countryName != null ? countryName.hashCode() : 0);
-        result = 31 * result + (regionId != null ? regionId.hashCode() : 0);
-        return result;
+        return Objects.hash(countryId, countryName, regionId);
     }
 
     public RegionsEntity getRegionsByRegionId() {

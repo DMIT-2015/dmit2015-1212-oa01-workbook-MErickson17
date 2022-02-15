@@ -2,23 +2,24 @@ package dmit2015.entity;
 
 import jakarta.persistence.*;
 
+import java.io.Serializable;
 import java.util.Collection;
+import java.util.Objects;
 
 @Entity
-@Table(name = "JOBS", schema = "HR", catalog = "")
-public class JobsEntity {
-
+@Table(name = "JOBS", schema = "HR")
+public class JobsEntity implements Serializable {
     @Id
-    @Column(name = "JOB_ID")
+    @Column(name = "JOB_ID", nullable = false, length = 10)
     private String jobId;
     @Basic
-    @Column(name = "JOB_TITLE")
+    @Column(name = "JOB_TITLE", nullable = false, length = 35)
     private String jobTitle;
     @Basic
-    @Column(name = "MIN_SALARY")
+    @Column(name = "MIN_SALARY", nullable = true, precision = 0)
     private Integer minSalary;
     @Basic
-    @Column(name = "MAX_SALARY")
+    @Column(name = "MAX_SALARY", nullable = true, precision = 0)
     private Integer maxSalary;
     @OneToMany(mappedBy = "jobsByJobId")
     private Collection<EmployeesEntity> employeesByJobId;
@@ -61,24 +62,13 @@ public class JobsEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         JobsEntity that = (JobsEntity) o;
-
-        if (jobId != null ? !jobId.equals(that.jobId) : that.jobId != null) return false;
-        if (jobTitle != null ? !jobTitle.equals(that.jobTitle) : that.jobTitle != null) return false;
-        if (minSalary != null ? !minSalary.equals(that.minSalary) : that.minSalary != null) return false;
-        if (maxSalary != null ? !maxSalary.equals(that.maxSalary) : that.maxSalary != null) return false;
-
-        return true;
+        return Objects.equals(jobId, that.jobId) && Objects.equals(jobTitle, that.jobTitle) && Objects.equals(minSalary, that.minSalary) && Objects.equals(maxSalary, that.maxSalary);
     }
 
     @Override
     public int hashCode() {
-        int result = jobId != null ? jobId.hashCode() : 0;
-        result = 31 * result + (jobTitle != null ? jobTitle.hashCode() : 0);
-        result = 31 * result + (minSalary != null ? minSalary.hashCode() : 0);
-        result = 31 * result + (maxSalary != null ? maxSalary.hashCode() : 0);
-        return result;
+        return Objects.hash(jobId, jobTitle, minSalary, maxSalary);
     }
 
     public Collection<EmployeesEntity> getEmployeesByJobId() {
