@@ -17,6 +17,10 @@
             <property name="jakarta.persistence.jdbc.password" value="RemotePassword200488405" />
 
             <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+
+            <property name="hibernate.jdbc.batch_size" value="10" />
+            <property name="hibernate.order_inserts" value="true"/>
+            <property name="hibernate.order_updates" value="true"/>
         </properties>
     </persistence-unit>
 

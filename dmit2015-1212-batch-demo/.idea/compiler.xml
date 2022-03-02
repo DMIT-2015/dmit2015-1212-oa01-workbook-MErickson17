@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dmit2015-1212-batch-demo" target="1.8" />
+      <module name="dmit2015-1212-batch-demo" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
