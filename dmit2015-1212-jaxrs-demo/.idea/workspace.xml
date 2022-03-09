@@ -10,7 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-batch-demo/src/main/java/ca/nait/dmit/batch/listener/EnforcementZoneCentreChunkListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-batch-demo/src/main/java/ca/nait/dmit/batch/listener/EnforcementZoneCentreJobListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-batch-demo/src/main/java/ca/nait/dmit/batch/listener/EnforcementZoneCentreStepListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dmit2015-1212-batch-demo/src/main/java/ca/nait/dmit/batch/EnforcementZoneCentreItemProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dmit2015-1212-batch-demo/src/main/java/ca/nait/dmit/batch/EnforcementZoneCentreItemProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dmit2015-1212-batch-demo/src/main/resources/META-INF/batch-jobs/job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dmit2015-1212-batch-demo/src/main/resources/META-INF/batch-jobs/job.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,6 +298,7 @@
       <workItem from="1645039288649" duration="33000" />
       <workItem from="1646071580668" duration="1238000" />
       <workItem from="1646146177405" duration="601000" />
+      <workItem from="1646681081716" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="Class Feb 1/2022">
       <created>1643734545743</created>
