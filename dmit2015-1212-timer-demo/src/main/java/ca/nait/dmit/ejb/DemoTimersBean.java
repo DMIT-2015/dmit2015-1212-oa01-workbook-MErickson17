@@ -90,19 +90,41 @@ public class DemoTimersBean {        // Also known as Calendar-Based Timers
 
         @Timeout
         public void checkBatchJobStatus(Timer timer) {
-                // Extract the jobId from the timer
-                long jobId = (long) timer.getInfo();
-                JobOperator jobOperator = BatchRuntime.getJobOperator();
-                JobExecution jobExecution = jobOperator.getJobExecution(jobId);
-                if (jobExecution.getBatchStatus() == BatchStatus.COMPLETED) {
-                        timer.cancel();
-                        // send email to notified batch job has completed
-                        List<EnforcementZoneCentre> entities = enforcementZoneCentreRepository.list();
+                try {
+                        // Extract the jobId from the timer
+                        long jobId = (long) timer.getInfo();
+                        JobOperator jobOperator = BatchRuntime.getJobOperator();
+                        JobExecution jobExecution = jobOperator.getJobExecution(jobId);
+                        if (jobExecution.getBatchStatus() == BatchStatus.COMPLETED) {
+                                timer.cancel();
+                                _logger.info("Batch Job " + jobId + " is done.");
+                                // send email to notified batch job has completed
+                                List<EnforcementZoneCentre> entities = enforcementZoneCentreRepository.list();
+                                StringBuilder stringBuilder = new StringBuilder();
+                                for (var currentItem : entities) {
+                                        String lineText = String.format("%s %s %s \n", currentItem.getSiteId(), currentItem.getLocationDescription(), currentItem.getSpeedLimit());
+                                        stringBuilder.append(lineText);
+                                }
+                                String mailBody = stringBuilder.toString();
+                                mail.sendTextEmail(mailToAddress, "BATCH job COMPLETED", mailBody); // email wasn't going through when he completed it
 
-                } else if (jobExecution.getBatchStatus() == BatchStatus.FAILED) {
-                        // send email to notified batch job has failed
-                        timer.cancel();
+                        } else if (jobExecution.getBatchStatus() == BatchStatus.FAILED) {
+                                // send email to notified batch job has failed
+                                _logger.info("Batch Job " + jobId + " has failed");
+                                timer.cancel();
+                        }
+                }
+                catch (Exception ex)
+                {
+                        ex.printStackTrace();
+                        try {
+                                mail.sendTextEmail(mailToAddress, "BATCH job Exception", ex.getMessage());
+                        }
+                        catch (Exception e)
+                        {
+                                e.printStackTrace();
+                                _logger.info("Error: " + e.getMessage());
+                        }
                 }
         }
-
 }
