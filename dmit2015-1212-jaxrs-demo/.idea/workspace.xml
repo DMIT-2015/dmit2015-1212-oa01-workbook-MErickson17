@@ -9,7 +9,88 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="" />
+    <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/artifacts/dmit2015_1212_jsf_demo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/artifacts/dmit2015_1212_jsf_demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_10_2_0_jre17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_enterprise_jakarta_enterprise_cdi_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_interceptor_jakarta_interceptor_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_json_bind_jakarta_json_bind_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_json_jakarta_json_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_platform_jakarta_jakartaee_web_api_9_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_eclipse_microprofile_config_microprofile_config_api_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_eclipse_microprofile_fault_tolerance_microprofile_fault_tolerance_api_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_eclipse_microprofile_health_microprofile_health_api_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_eclipse_microprofile_jwt_microprofile_jwt_auth_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_eclipse_microprofile_metrics_microprofile_metrics_api_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_eclipse_microprofile_openapi_microprofile_openapi_api_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_eclipse_microprofile_opentracing_microprofile_opentracing_api_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_eclipse_microprofile_rest_client_microprofile_rest_client_api_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_glassfish_jakarta_faces_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_glassfish_jaxb_txw2_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_hibernate_hibernate_core_jakarta_5_6_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_7_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_omnifaces_omnifaces_4_0_M13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_primefaces_primefaces_jakarta_11_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/libraries/Maven__org_webjars_npm_primeflex_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/dmit2015-1212-jsf-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/common/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/common/jpa/AbstractJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/common/producer/LoggerProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/common/validation/BeanValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/dmit2015/dmit20151212jsfdemo/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/dmit2015/dmit20151212jsfdemo/HelloResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/dmit2015/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/dmit2015/entity/TodoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/dmit2015/repository/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/dmit2015/repository/TodoItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/dmit2015/view/MovieCreateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/java/dmit2015/view/MovieListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/webapp/Movie/create.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/webapp/Movie/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/webapp/WEB-INF/jsf-templates/layout.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/webapp/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/webapp/resources/images/movie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,15 +99,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="DMIT2015 JPA Abstract Repository" />
         <option value="DMIT2015 BeanValidator" />
         <option value="DMIT2015 JAX-RS Resource" />
         <option value="DMIT2015 JAX-RS DTO Mapper" />
         <option value="DMIT2015 JAX-RS DTO Resource" />
         <option value="DMIT2015 JPA Entity Repository" />
-        <option value="HTTP Request" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -293,6 +371,8 @@
       <workItem from="1646071580668" duration="1238000" />
       <workItem from="1646146177405" duration="601000" />
       <workItem from="1646681081716" duration="40000" />
+      <workItem from="1647958001736" duration="2324000" />
+      <workItem from="1647966206878" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="Class Feb 1/2022">
       <created>1643734545743</created>
