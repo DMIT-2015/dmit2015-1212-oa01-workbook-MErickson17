@@ -1,0 +1,61 @@
+### Create a new Movie (title,releaseDate,genre,rating,price)
+POST https://dmit2015-1212-demo-default-rtdb.firebaseio.com/movies.json
+Content-Type: application/json
+
+{
+"title":"Dune",
+"releaseDate":"2022-03-29",
+"genre":"action",
+"rating":"PG-13",
+"price": 19.99
+}
+
+### Create a new Movie (title,releaseDate,genre,rating,price)
+POST https://dmit2015-1212-demo-default-rtdb.firebaseio.com/movies.json
+Content-Type: application/json
+
+{
+  "title":"King Richard",
+  "releaseDate":"2022-03-29",
+  "genre":"comedy",
+  "rating":"PG-13",
+  "price": 29.99
+}
+
+### Create a new Movie (title,releaseDate,genre,rating,price)
+POST https://dmit2015-1212-demo-default-rtdb.firebaseio.com/movies.json
+Content-Type: application/json
+
+{
+  "title":"Turning Red",
+  "releaseDate":"2022-02-21",
+  "genre":"comedy",
+  "rating":"PG",
+  "price": 9.99
+}
+
+### GET All Movies
+GET https://dmit2015-1212-demo-default-rtdb.firebaseio.com/movies.json
+
+### GET One Movie by Key
+GET https://dmit2015-1212-demo-default-rtdb.firebaseio.com/movies/-MzL8J64JlFHSO69sZlr.json
+
+### UPDATE Movie and change price to 19.98 and genre to action for movie with key -MzL8J64JlFHSO69sZlr
+PUT https://dmit2015-1212-demo-default-rtdb.firebaseio.com/movies/-MzL8J64JlFHSO69sZlr.json
+Content-Type: application/json
+
+{
+  "title":"Turning Red",
+  "releaseDate":"2022-02-21",
+  "genre":"action",
+  "rating":"PG",
+  "price": 19.98
+}
+
+### PATCH only a couple items on a movie with key -MzL7ekiZiPjAI_7YLU6 (for example's sake)
+PATCH https://dmit2015-1212-demo-default-rtdb.firebaseio.com/movies/-MzL7ekiZiPjAI_7YLU6.json
+Content-Type: application/json
+
+{
+  "releaseDate": "2021-10-21"
+}
