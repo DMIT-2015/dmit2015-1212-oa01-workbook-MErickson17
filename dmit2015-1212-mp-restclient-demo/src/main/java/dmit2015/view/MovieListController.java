@@ -4,6 +4,7 @@ import dmit2015.restclient.Movie;
 import dmit2015.restclient.MovieService;
 import lombok.Getter;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
+import org.omnifaces.util.Faces;
 import org.omnifaces.util.Messages;
 
 import jakarta.annotation.PostConstruct;
