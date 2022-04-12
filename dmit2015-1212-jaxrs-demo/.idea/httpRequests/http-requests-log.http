@@ -1,3 +1,165 @@
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type: application/json
+
+{
+"username": "Sales01",
+"password":"Password2015"
+}
+
+###
+
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type: application/json
+
+{
+"username": "sales01",
+"password":"Password2015"
+}
+
+<> 2022-04-12T094429.400.txt
+
+###
+
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type: application/json
+
+{
+  "username": "Sales01",
+  "password": "Password2015"
+}
+
+###
+
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type: application/json
+
+{
+"username": "sales01",
+"password":"Password2015"
+}
+
+<> 2022-04-12T094136.400.txt
+
+###
+
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type: application/json
+
+{
+  "username": "Sales01",
+  "password": "Password2015"
+}
+
+###
+
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type: application/json
+
+{
+  "username": "Sales01",
+  "password": "Password2015"
+}
+
+###
+
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type: application/json
+
+{
+  "username": "Sales01",
+  "password": "Password2015"
+}
+
+<> 2022-04-12T093308.404.html
+
+###
+
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type: application/json
+
+{
+  "username": "Sales01",
+  "password":"Password2015"
+}
+
+###
+
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type: application/json
+
+{
+  "username": "Sales01",
+  "password":"Password2015"
+}
+
+###
+
+POST http://localhost:8080/webapi/jwt/ldapJsonLogin
+Content-Type: application/json
+
+{
+  "username": "DLEE",
+  "password":"Password2015"
+}
+
+<> 2022-04-12T092204.500.octet-stream
+
+###
+
+GET http://localhost:8080/webapi/TodoItems
+
+<> 2022-04-12T092154.200.json
+
+###
+
+POST http://localhost:8080/webapi/jwt/ldapJsonLogin
+Content-Type: application/json
+
+{
+  "username": "DLEE",
+  "password":"Password2015"
+}
+
+<> 2022-04-12T092142.500.octet-stream
+
+###
+
+POST http://localhost:8080/webapi/jwt/ldapJsonLogin
+Content-Type: application/json
+
+{
+  "username": "DLEE",
+  "password":"Password2015"
+}
+
+<> 2022-04-12T091128.500.octet-stream
+
+###
+
+POST http://localhost:8080/webapi/jwt/ldapJsonLogin
+Content-Type: application/json
+
+{
+  "username": "DLEE",
+  "password": "Password2015"
+}
+
+<> 2022-04-12T090855.500.octet-stream
+
+###
+
+GET http://localhost:8080/webapi/Movies
+
+<> 2022-04-12T081832.200.json
+
+###
+
+GET http://localhost:8080/webapi/TodoItemDtos
+
+<> 2022-04-12T081655.200.json
+
+###
+
 DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/2
 
 ###
@@ -252,111 +414,6 @@ Content-Type: application/json
 GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
 
 <> 2022-02-09T102611.200.json
-
-###
-
-POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
-Content-Type: application/json
-
-{"name":"Finish DMIT2015 Assignment 2", "complete":false}
-
-###
-
-GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/1
-
-<> 2022-02-09T102606.200.json
-
-###
-
-GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
-
-<> 2022-02-09T102601.200.json
-
-###
-
-DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
-
-<> 2022-02-09T102318.500.html
-
-###
-
-GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
-
-<> 2022-02-09T102311.200.json
-
-###
-
-DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
-
-<> 2022-02-09T102307.500.html
-
-###
-
-GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
-
-<> 2022-02-09T102259.200.json
-
-###
-
-PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
-Content-Type: application/json
-
-{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
-
-<> 2022-02-09T102255.200.json
-
-###
-
-GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
-
-<> 2022-02-09T102252.200.json
-
-###
-
-POST http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
-Content-Type: application/json
-
-{"name":"Finish DMIT2015 Assignment 2", "complete":false}
-
-###
-
-GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/1
-
-<> 2022-02-09T102248.200.json
-
-###
-
-PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
-Content-Type: application/json
-
-{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
-
-###
-
-DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/5
-
-<> 2022-02-09T090542.500.html
-
-###
-
-DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
-
-<> 2022-02-09T090537.500.html
-
-###
-
-DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
-
-<> 2022-02-09T090518.500.html
-
-###
-
-PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
-Content-Type: application/json
-
-{"id":4, "name":"Demo DMIT2015 Assignment 1", "complete":true}
-
-<> 2022-02-09T090511.200.json
 
 ###
 

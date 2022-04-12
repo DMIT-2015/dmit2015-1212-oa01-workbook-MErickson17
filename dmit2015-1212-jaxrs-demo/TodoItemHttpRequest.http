@@ -1,11 +1,38 @@
 ### Get all TodoItems
-GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems
+GET http://localhost:8080/webapi/TodoItems
 
 ### Get a single TodoItem with an id of 1
-GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/1
+GET http://localhost:8080/webapi/TodoItems/1
+
+### GET a JWT Token for LDAP user DLEE
+POST http://localhost:8080/webapi/jwt/ldapJsonLogin
+Content-Type:application/json
+
+{
+  "username": "DLEE",
+  "password":"Password2015"
+}
+
+### GET a JWT Token for DB user Sales01
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type:application/json
+
+{
+  "username": "Sales01",
+  "password": "Password2015"
+}
+
+### Test
+POST http://localhost:8080/webapi/jwt/jsonLogin
+Content-Type:application/json
+
+{
+"username": "Sales01",
+"password":"Password2015"
+}
 
 ### POST a new TodoItem with valid data
-POST http://localhost:8080//dmit2015-1212-jaxrs-demo/webapi/TodoItems
+POST http://localhost:8080/webapi/TodoItems
 Content-Type: application/json
 
 {
@@ -14,7 +41,7 @@ Content-Type: application/json
 }
 
 ### POST a new TodoItem with invalid data
-POST http://localhost:8080//dmit2015-1212-jaxrs-demo/webapi/TodoItems
+POST http://localhost:8080/webapi/TodoItems
 Content-Type: application/json
 
 {
@@ -23,10 +50,10 @@ Content-Type: application/json
 }
 
 ### Get a single TodoItem with an id of 4
-GET http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+GET http://localhost:8080/webapi/TodoItems/4
 
 ### Update TodoItem with an id of 4 and change name and complete properties. The first time it should work, the second it should fail
-PUT http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+PUT http://localhost:8080/webapi/TodoItems/4
 Content-Type: application/json
 
 {
@@ -37,7 +64,7 @@ Content-Type: application/json
 }
 
 ### Delete an TodoItem with an id of 2 (created with our script file)
-DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/2
+DELETE http://localhost:8080/webapi/TodoItems/2
 
 ### Delete an TodoItem with an id of 4 (created programatically)
-DELETE http://localhost:8080/dmit2015-1212-jaxrs-demo/webapi/TodoItems/4
+DELETE http://localhost:8080/webapi/TodoItems/4
