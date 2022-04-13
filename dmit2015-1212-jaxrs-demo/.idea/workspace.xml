@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +63,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/images" />
@@ -76,6 +76,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/images" />
       <recent name="$PROJECT_DIR$/src/main/java/dmit2015/resource" />
     </key>
@@ -235,7 +236,8 @@
       <workItem from="1647958001736" duration="2324000" />
       <workItem from="1647966206878" duration="70000" />
       <workItem from="1649772548565" duration="6030000" />
-      <workItem from="1649811246822" duration="356000" />
+      <workItem from="1649811246822" duration="415000" />
+      <workItem from="1649865664223" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="Class Feb 1/2022">
       <created>1643734545743</created>
@@ -300,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649778711049</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix to file location">
+      <created>1649811644980</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649811644980</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +326,8 @@
     <MESSAGE value="Completed updating code from 09-02-2022" />
     <MESSAGE value="Class 28-08-2022" />
     <MESSAGE value="End of Class 12-04-2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of Class 12-04-2022" />
+    <MESSAGE value="Fix to file location" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix to file location" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

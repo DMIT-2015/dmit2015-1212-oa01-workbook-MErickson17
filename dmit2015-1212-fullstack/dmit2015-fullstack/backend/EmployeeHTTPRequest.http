@@ -1,0 +1,37 @@
+### Get all Employee
+GET https://localhost:8443/backend/webapi/employees
+
+### GET a JWT token for DAUSTIN
+POST https://localhost:8443/backend/webapi/jwt/ldapJsonLogin
+Content-Type: application/json
+
+{
+  "username": "DAUSTIN",
+  "password": "Password2015"
+}
+
+### POST a new Employee
+POST https://localhost:8443/backend/webapi/employees
+Content-Type: application/json
+Authorization: Bearer eyJraWQiOiJxdWlja3N0YXJ0LWp3dC1pc3N1ZXIiLCJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJEQVVTVElOIiwidXBuIjoiREFVU1RJTiIsImlzcyI6InF1aWNrc3RhcnQtand0LWlzc3VlciIsImF1ZCI6Imp3dC1hdWRpZW5jZSIsImdyb3VwcyI6WyJJVCJdLCJqdGkiOiJhZTc5ZWQxZi0xZTg3LTQyZjQtODBkMC04MDZmNzU2Y2MwNmEiLCJpYXQiOjE2NDk4NzMyMzcsImV4cCI6MTY0OTg4NzYzN30.hCpp1R8hbdcWOHBXr-imrDZsnBdD8V6WSLp8knDrrylXIM9O5s1BHUgZV5BB-cOlOY2DmYfx4T2lYs2cQ9xiAMBYdjBm3RaNyVNpnfHPZmJLri0nGAdJ0IB4hPPGPQOinUTAtqEpPvfjHfthPhtNggAw4kBRcrm5wy6dBHVCU4Fvq87qR-6uygp_2wHRAKkKzxonn-uw_Xcg4wAJs3rrPaGXrvgyWcIcFjeys75HLWKPixW0bXjwLseR6YgrkkSeOQBmxKmau1RpYELvw00CYApsETraqlBN-eCSZnVunlJbaceGDevWiOqEoXaUSuyIT2eBSDne_QXqzKAKZpBVjg
+
+{
+  "name": "Samwise Gamgee",
+  "role": "gardener"
+}
+
+### Update Employee
+PUT https://localhost:8443/backend/webapi/employees/3
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Samwise Gamgee",
+  "role": "ring bearer"
+}
+
+### Delete Employee
+DELETE https://localhost:8443/backend/webapi/employees/3
+
+### Now if we look again, it's gone
+GET https://localhost:8443/backend/webapi/employees/3
