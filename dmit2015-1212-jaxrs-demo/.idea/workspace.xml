@@ -9,70 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="Class 28-08-2022">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_enterprise_jakarta_enterprise_cdi_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_interceptor_jakarta_interceptor_api_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_all_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mina_mina_core_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicemix_bundles_org_apache_servicemix_bundles_antlr_2_7_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicemix_bundles_org_apache_servicemix_bundles_dom4j_2_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicemix_bundles_org_apache_servicemix_bundles_xpp3_1_1_4c_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_config_microprofile_config_api_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_fault_tolerance_microprofile_fault_tolerance_api_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_health_microprofile_health_api_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_jwt_microprofile_jwt_auth_api_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_metrics_microprofile_metrics_api_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_openapi_microprofile_openapi_api_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_opentracing_microprofile_opentracing_api_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_rest_client_microprofile_rest_client_api_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/security/ApplicationStartupListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/security/CallerUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/security/CallerUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/security/JwtResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/security/TokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/jwt-public.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dmit2015_1212_jaxrs_demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dmit2015_1212_jaxrs_demo_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T090511.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T090518.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T090537.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T090542.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T102248.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T102252.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T102255.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T102259.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T102307.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T102311.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T102318.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T102601.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-09T102606.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_jdbc_ojdbc11_21_4_0_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_jdbc_ojdbc11_21_5_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_json_jakarta_json_api_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_json_jakarta_json_api_2_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_35.xml" afterDir="false" />
+    <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieHttpRequest.http" beforeDir="false" afterPath="$PROJECT_DIR$/MovieHttpRequest.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoItemDtoHttpRequest.http" beforeDir="false" afterPath="$PROJECT_DIR$/TodoItemDtoHttpRequest.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoItemHttpRequest.http" beforeDir="false" afterPath="$PROJECT_DIR$/TodoItemHttpRequest.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dmit2015-1212-jaxrs-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmit2015-1212-jaxrs-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/config/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/config/JAXRSConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/config/JAXRSConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/resource/TodoItemResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/webapp/errorpages/500.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../dmit2015-1212-jsf-demo/src/main/webapp/errorpages/500.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,21 +63,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dmit2015-1212-oa01-assignment03-MErickson17/pom.xml" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/images" />
@@ -159,17 +88,6 @@
     </key>
   </component>
   <component name="RunManager" selected="HTTP Request.TodoItemHttpRequest | Test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MovieHttpRequest | GET all movies" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/MovieHttpRequest.http" requestIdentifier="GET all movies" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -257,12 +175,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.0.0.Final" />
       <item itemvalue="HTTP Request.MovieHttpRequest | GET all movies" />
       <item itemvalue="HTTP Request.TodoItemHttpRequest | GET a JWT Token for user DLEE" />
       <item itemvalue="HTTP Request.TodoItemHttpRequest | Get all TodoItems" />
       <item itemvalue="HTTP Request.TodoItemHttpRequest | GET a JWT Token for DB user Sales01" />
       <item itemvalue="HTTP Request.TodoItemHttpRequest | Test" />
+      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.0.0.Final" />
     </list>
     <recent_temporary>
       <list>
@@ -316,7 +234,8 @@
       <workItem from="1646681081716" duration="40000" />
       <workItem from="1647958001736" duration="2324000" />
       <workItem from="1647966206878" duration="70000" />
-      <workItem from="1649772548565" duration="5920000" />
+      <workItem from="1649772548565" duration="6030000" />
+      <workItem from="1649811246822" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="Class Feb 1/2022">
       <created>1643734545743</created>
@@ -374,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646074262926</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="End of Class 12-04-2022">
+      <created>1649778711048</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649778711049</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +316,8 @@
     <MESSAGE value="Feb 10/22 - start of reviewing video" />
     <MESSAGE value="Completed updating code from 09-02-2022" />
     <MESSAGE value="Class 28-08-2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class 28-08-2022" />
+    <MESSAGE value="End of Class 12-04-2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of Class 12-04-2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
