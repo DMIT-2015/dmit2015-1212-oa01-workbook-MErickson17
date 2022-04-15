@@ -10,7 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e9880b0-dd75-44a8-b0a6-223ee74b480c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/java/common/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/java/dmit2015/client/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/java/dmit2015/client/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/java/dmit2015/client/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/java/dmit2015/view/EmployeeCreateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/java/dmit2015/view/EmployeeListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/java/dmit2015/view/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/java/dmit2015/view/LoginSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/java/dmit2015/view/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/webapp/WEB-INF/jsf-templates/layout.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/webapp/employees/create.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/webapp/employees/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/webapp/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/webapp/login.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dmit2015-1212-fullstack/dmit2015-fullstack/frontend/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +106,19 @@
     </key>
   </component>
   <component name="RunManager" selected="HTTP Request.TodoItemHttpRequest | Test">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MovieHttpRequest | GET all movies" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/MovieHttpRequest.http" requestIdentifier="GET all movies" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -238,6 +268,8 @@
       <workItem from="1649772548565" duration="6030000" />
       <workItem from="1649811246822" duration="415000" />
       <workItem from="1649865664223" duration="181000" />
+      <workItem from="1649891376360" duration="606000" />
+      <workItem from="1650037768208" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="Class Feb 1/2022">
       <created>1643734545743</created>
